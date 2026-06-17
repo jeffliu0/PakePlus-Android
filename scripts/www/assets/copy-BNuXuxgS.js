@@ -1,0 +1,1 @@
+function e(r){return navigator.clipboard&&window.isSecureContext?navigator.clipboard.writeText(r).catch(()=>Promise.reject(new Error("copy-failed"))):Promise.reject(new Error("copy-failed"))}export{e as s};
